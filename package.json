@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --require babel-polyfill --compilers js:babel-register \"test/**/*.spec.js\""
+    "test": "mocha --require babel-polyfill --compilers js:babel-register \"test/**/*.spec.js\" && ./node_modules/.bin/eslint lib/**"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,10 @@
     "babel-preset-env": "^1.6.0",
     "babel-register": "^6.26.0",
     "chai": "^4.1.2",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb-base": "^12.0.2",
+    "eslint-plugin-import": "^2.7.0",
     "mocha": "^4.0.1"
-  }
+  },
+  "dependencies": {}
 }
