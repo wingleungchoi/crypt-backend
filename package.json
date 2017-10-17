@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "babel-node app.js",
     "test": "mocha --require babel-polyfill --compilers js:babel-register \"test/**/*.spec.js\" && ./node_modules/.bin/eslint lib/**"
   },
   "repository": {
@@ -29,6 +30,7 @@
   },
   "dependencies": {
     "axios": "^0.16.2",
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.4",
+    "socket.io": "^2.0.3"
   }
 }
