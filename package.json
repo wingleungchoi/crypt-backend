@@ -27,5 +27,8 @@
     "eslint-plugin-import": "^2.7.0",
     "mocha": "^4.0.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "axios": "^0.16.2",
+    "lodash": "^4.17.4"
+  }
 }
